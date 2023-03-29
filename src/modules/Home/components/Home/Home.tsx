@@ -24,7 +24,9 @@ export function Home({}: IHomeProps): JSX.Element {
               <p className="!font-light text-[36px] mb-2">
                 <span>{t(`${selectedCountry}.countryRecipe`)}</span>
               </p>
-              <p className={`!font-light text-[16px] ${poppins.className}`}>
+              <p
+                className={`!font-light text-[16px] ${poppins.className} opacity-40`}
+              >
                 {t(`${selectedCountry}.recipeDescription`)}
               </p>
             </div>
