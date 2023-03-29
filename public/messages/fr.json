@@ -1,6 +1,26 @@
 {
   "home": {
     "pageTitle": "Welcome to ZapKit 👋",
-    "pageDescription": "ZapKit is a NextJs starter kit featuring tailwindcss, typescript, i18n, jest, tanstack, and more. \n It's gonna help you developingultra fast, without thinking about config concerns."
+    "pageDescription": "ZapKit is a NextJs starter kit featuring tailwindcss, typescript, i18n, jest, tanstack, and more. \n It's gonna help you developingultra fast, without thinking about config concerns.",
+    "italy": {
+      "countryName": "Italie",
+      "countryRecipe": "Pasta al funghi",
+      "recipeDescription": "De délicieuses linguine al dente, aux bons champignons et lard végétal, sur lit de jeunes pousses, saupoudrées de parmesan. Hmmmm quel régal !"
+    },
+    "india": {
+      "countryName": "Inde",
+      "countryRecipe": "Curry Végétarien",
+      "recipeDescription": "Du riz basmati arrosé de légumes marinés à la coco, le tout soutenu de naans au fromage... l'extase !"
+    },
+    "america": {
+      "countryName": "Amérique",
+      "countryRecipe": "Brunch à l'Américaine",
+      "recipeDescription": "Des pancakes, du sirop d'érable, du café, on s'y croirait !"
+    },
+    "mexico": {
+      "countryName": "Mexique",
+      "countryRecipe": "Fajitas",
+      "recipeDescription": "Para bailar la bamba, se necesita una poca de fajitas !"
+    }
   }
 }
