@@ -1,0 +1,14 @@
+import { {{pascalCase componentName}}, I{{pascalCase componentName}}Props} from '../{{pascalCase componentName}}'
+import { RenderResult } from '@testing-library/react'
+import { render } from '@Tests'
+
+describe("{{pascalCase componentName}} component", () => {
+    function renderComponent(props: I{{pascalCase componentName}}Props): RenderResult {
+    return render(<{{pascalCase componentName}} {...props}/>)
+    }
+
+    it('should render correctly', () => {
+    const { container } = renderComponent({})
+    expect(container).toMatchSnapshot()
+    })
+})

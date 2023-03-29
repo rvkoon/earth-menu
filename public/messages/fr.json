@@ -1,0 +1,6 @@
+{
+  "home": {
+    "pageTitle": "Welcome to ZapKit 👋",
+    "pageDescription": "ZapKit is a NextJs starter kit featuring tailwindcss, typescript, i18n, jest, tanstack, and more. \n It's gonna help you developingultra fast, without thinking about config concerns."
+  }
+}

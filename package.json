@@ -1,0 +1,49 @@
+{
+  "name": "fdj-draw-earn-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port=8000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --passWithNoTests",
+    "prepare": "husky install",
+    "generate": "plop"
+  },
+  "dependencies": {
+    "@next/font": "13.1.1",
+    "@types/lodash": "^4.14.191",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "axios": "^1.2.2",
+    "classnames": "^2.3.2",
+    "daisyui": "^2.46.1",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "formik": "^2.2.9",
+    "lodash": "^4.17.21",
+    "next": "13.1.1",
+    "next-intl": "^2.10.2",
+    "next-router-mock": "^0.9.1-beta.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-feather": "^2.0.10",
+    "react-query": "^3.39.2",
+    "sass": "^1.57.1",
+    "typescript": "4.9.4",
+    "usehooks-ts": "^2.9.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "autoprefixer": "^10.4.13",
+    "husky": "^8.0.3",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "plop": "^3.1.2",
+    "tailwindcss": "^3.2.4"
+  }
+}

@@ -1,0 +1,12 @@
+import { {{pascalCase pageName}} } from "@{{pascalCase pageName}}"
+import type { GetServerSidePropsContext } from "next";
+
+export default {{pascalCase pageName}}
+
+export async function getServerSideProps({ locale }: GetServerSidePropsContext) {
+  return {
+    props: {
+      messages: (await import(`public/messages/${locale}.json`)).default,
+    },
+  };
+}

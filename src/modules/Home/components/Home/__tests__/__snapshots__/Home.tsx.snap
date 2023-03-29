@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component should render correctly 1`] = `
+<div>
+  <div
+    class="flex p-4"
+  >
+    <div
+      class="w-[400px] text-center m-auto flex flex-col gap-2"
+    >
+      <h1
+        class="font-bold text-[24px]"
+      >
+        Welcome to ZapKit 👋
+      </h1>
+      <p>
+        ZapKit is a NextJs starter kit featuring tailwindcss, typescript, i18n, jest, tanstack, and more. 
+ It's gonna help you starting your new project ultra fast, without thinking about config concerns.
+      </p>
+    </div>
+  </div>
+</div>
+`;
