@@ -15,12 +15,15 @@
     "america": {
       "countryName": "Amérique",
       "countryRecipe": "Brunch à l'Américaine",
-      "recipeDescription": "Des pancakes, du sirop d'érable, du café, on s'y croirait !"
+      "recipeDescription": "Des pancakes, du sirop d'érable, du café, des oeufs brouillés, on s'y croirait !"
     },
     "mexico": {
       "countryName": "Mexique",
       "countryRecipe": "Fajitas",
-      "recipeDescription": "Para bailar la bamba, se necesita una poca de fajitas !"
-    }
+      "recipeDescription": "Oignons, haricots rouges, tomates, poivrons, fromage... y'a de l'ambiance dans ces galettes !"
+    },
+    "helpTitle": "Aide",
+    "helpDescription": "Tournez la terre pour afficher les lieux pointés par des marqueurs. Cliquez sur les marqueurs pour voir les menus s'afficher.",
+    "helpClose": "Fermer"
   }
 }
