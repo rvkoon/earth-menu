@@ -15,12 +15,16 @@ export function Home({}: IHomeProps): JSX.Element {
   }
 
   return (
-    <div className=" min-w-screen min-h-screen max-h-screen max-w-screen bg-[#000]">
+    <div className=" min-w-screen min-h-screen max-h-screen max-w-screen bg-[#003F3E]">
       <div className="flex p-4">
-        <div className="w-full md:w-[60vw] text-center m-auto flex flex-col gap-2">
-          <p className="!font-light text-[80px]">Un Monde de Saveurs</p>
+        <div className="w-full m-auto flex flex-col gap-2">
+          <p className="!font-light text-[240px] leading-[200px]">
+            Un Monde
+            <br />
+            de Saveurs
+          </p>
           {selectedCountry && (
-            <div className="p-4 rounded-xl bg-[#101010]">
+            <div className="w-[30%] p-4 rounded-xl bg-[#101010]">
               <p className="!font-light text-[36px] mb-2">
                 <span>{t(`${selectedCountry}.countryRecipe`)}</span>
               </p>
@@ -34,9 +38,9 @@ export function Home({}: IHomeProps): JSX.Element {
         </div>
       </div>
       <Spline
-        scene="https://prod.spline.design/zgLjcF24AFksARr7/scene.splinecode"
+        scene="https://draft.spline.design/KCjVZAI1sCfiP8Lb/scene.splinecode"
         onMouseUp={onMouseUp}
-        className="min-w-[100vw] min-h-[100vh] fixed bottom-[-46%]"
+        className="min-w-[100vw] min-h-[100vh] fixed bottom-0 right-[-20%]"
       />
     </div>
   );

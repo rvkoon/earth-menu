@@ -1,7 +1,7 @@
 import { Cormorant_Garamond, Poppins } from "@next/font/google";
 
 export const cormorant = Cormorant_Garamond({
-  weight: ["300", "400"],
+  weight: ["300", "400", "700"],
   subsets: ["latin"],
 });
 
